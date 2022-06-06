@@ -212,6 +212,7 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			AwakeInstancesAfterBackupRestoration (33ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
@@ -221,6 +222,8 @@ Unloading 19 unused Assets / (71.7 KB). Loaded Objects now: 3824.
 Memory consumption went from 230.1 MB to 230.0 MB.
 Total: 4.553292 ms (FindLiveObjects: 0.286667 ms CreateObjectMapping: 0.194292 ms MarkObjects: 3.964875 ms  DeleteObjects: 0.106542 ms)
 =======
+=======
+>>>>>>> Stashed changes
 			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
@@ -229,6 +232,9 @@ Unloading 3359 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (71.8 KB). Loaded Objects now: 3825.
 Memory consumption went from 226.2 MB to 226.1 MB.
 Total: 4.407500 ms (FindLiveObjects: 0.297792 ms CreateObjectMapping: 0.192291 ms MarkObjects: 3.820292 ms  DeleteObjects: 0.096000 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
