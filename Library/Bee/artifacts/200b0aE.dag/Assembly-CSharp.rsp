@@ -351,6 +351,7 @@
 "Assets/Scripts/MapDisplay.cs"
 "Assets/Scripts/MapGenerator.cs"
 "Assets/Scripts/Noise.cs"
+"Assets/Scripts/TextureGenerator.cs"
 -langversion:9.0
 
 /deterministic
