@@ -408,8 +408,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1274628510}
-  - component: {fileID: 1274628509}
-  - component: {fileID: 1274628508}
+  - component: {fileID: 1274628512}
+  - component: {fileID: 1274628511}
   m_Layer: 0
   m_Name: Map Generator
   m_TagString: Untagged
@@ -417,35 +417,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1274628508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274628507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 671a1dfcf42334df4a09f6cfb8113385, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapWidth: 1000
-  mapHeight: 1000
-  noiseScale: 50
-  autoUpdate: 1
---- !u!114 &1274628509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274628507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 002961a29344e47ff927b620dfaa1a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textureRender: {fileID: 1028982982}
 --- !u!4 &1274628510
 Transform:
   m_ObjectHideFlags: 0
@@ -461,3 +432,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274628511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274628507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7379ac21714604e2386ebeec1a5387b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textureRender: {fileID: 1028982982}
+--- !u!114 &1274628512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274628507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1739c38bf0f463787ab88630d6dbab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawMode: 1
+  mapWidth: 1000
+  mapHeight: 1000
+  noiseScale: 200
+  octaves: 8
+  persistance: 0.5
+  lacunarity: 2
+  seed: 0
+  offset: {x: 0, y: 100}
+  autoUpdate: 1
+  regions:
+  - height: 0.3
+    name: Water
+    color: {r: 0.21947311, g: 0.3101914, b: 0.33962262, a: 0}
+  - height: 0.4
+    name: Sand
+    color: {r: 0.6603774, g: 0.5310242, b: 0.003114995, a: 0}
+  - height: 0.7
+    name: Land
+    color: {r: 0.42831078, g: 0.7264151, b: 0.43827432, a: 0}
+  - height: 0.85
+    name: Moutain
+    color: {r: 0.2735849, g: 0.11922705, b: 0.0038714774, a: 0}
+  - height: 1
+    name: Peak
+    color: {r: 0.9303578, g: 0.9528302, b: 0.93124485, a: 0}
