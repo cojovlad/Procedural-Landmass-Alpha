@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/MapDisplay.cs"
 "Assets/Scripts/MapGenerator.cs"
+"Assets/Scripts/MeshGenerator.cs"
 "Assets/Scripts/Noise.cs"
 "Assets/Scripts/TextureGenerator.cs"
 -langversion:9.0
