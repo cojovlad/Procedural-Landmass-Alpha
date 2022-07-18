@@ -464,22 +464,25 @@ MonoBehaviour:
   octaves: 8
   persistance: 0.5
   lacunarity: 2
-  seed: 0
+  seed: 28
   offset: {x: 0, y: 100}
   autoUpdate: 1
   regions:
   - height: 0.3
     name: Water
-    color: {r: 0.21947311, g: 0.3101914, b: 0.33962262, a: 0}
-  - height: 0.4
+    color: {r: 0.05882353, g: 0.36862746, b: 0.6117647, a: 0}
+  - height: 0.35
     name: Sand
-    color: {r: 0.6603774, g: 0.5310242, b: 0.003114995, a: 0}
-  - height: 0.7
+    color: {r: 0.7607843, g: 0.69803923, b: 0.5019608, a: 0}
+  - height: 0.65
     name: Land
-    color: {r: 0.42831078, g: 0.7264151, b: 0.43827432, a: 0}
-  - height: 0.85
+    color: {r: 0.028034883, g: 0.3962264, b: 0.042042177, a: 0}
+  - height: 0.75
     name: Moutain
     color: {r: 0.2735849, g: 0.11922705, b: 0.0038714774, a: 0}
+  - height: 0.85
+    name: Peak
+    color: {r: 0.122641504, g: 0.055357218, b: 0.007520473, a: 0}
   - height: 1
     name: Peak
     color: {r: 0.9303578, g: 0.9528302, b: 0.93124485, a: 0}
