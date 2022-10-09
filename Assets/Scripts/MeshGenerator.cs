@@ -25,9 +25,9 @@ public class MeshGenerator{
                 //we do this bcs we never get to the right and down edge of the map with our parsing
                 if (x < width - 1 && y < height - 1)
                 {
-                    //top left i top right i+1 bottom left i+w bottom right i+w+1 for the square value in each parse
-                    meshData.AddTriangle (vertexIndex, vertexIndex + width + 1, vertexIndex + width);
-                    meshData.AddTriangle (vertexIndex + width + 1, vertexIndex, vertexIndex + 1);
+             ]
+             \
+DSXXZXΩΩ`                    meshData.AddTriangle (vertexIndex + width + 1, vertexIndex, vertexIndex + 1);
                 }
                     
                 vertexIndex++; 
