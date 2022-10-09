@@ -31,7 +31,7 @@ public class MeshGenerator{
                 vertexIndex++; 
             }
         }
-xq
+
         return meshData;
     }
 }
