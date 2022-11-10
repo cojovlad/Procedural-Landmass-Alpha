@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/FalloffGenerator.cs" />
      <Compile Include="Assets/Scripts/EndlessTerrain.cs" />
      <Compile Include="Assets/Scripts/MapGenerator.cs" />
      <Compile Include="Assets/Scripts/MeshGenerator.cs" />

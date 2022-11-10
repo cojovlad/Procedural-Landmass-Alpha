@@ -95,7 +95,7 @@ public class EndlessTerrain : MonoBehaviour
 
 			meshObject.transform.position = positionV3 * mapGenerator.worldScale;
 			meshObject.transform.parent = parent; 
-			//meshObject.transform.localScale= Vector2.one * mapGenerator.worldScale;
+			meshObject.transform.localScale= Vector3.one * mapGenerator.worldScale;
 			SetVisible(false);
 
 			lodMeshes = new LODMesh[detailLevels.Length];
